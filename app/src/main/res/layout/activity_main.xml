@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_margin="20dp"
+
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.example.sudeepvig.filehandling.MainActivity">
+
+    <EditText
+        android:id="@+id/enterdata"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textImeMultiLine"
+        android:lines="5"
+        android:layout_margin="20dp"
+
+        android:hint="Enter Data"
+        />
+
+    <Button
+        android:id="@+id/write"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="WRITE"
+        android:layout_margin="20dp"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="#FFF"
+        />
+
+
+    <Button
+        android:id="@+id/read"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="redirect"
+        android:layout_margin="20dp"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="#FFF"
+        />
+
+
+</LinearLayout>
