@@ -20,6 +20,8 @@ public class MainActivity extends AppCompatActivity {
     EditText enterdata;
     Button write ,redirect;
 
+    String hello = "I've made a change to master!";
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
